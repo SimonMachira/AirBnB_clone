@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-
-=======
->>>>>>> fbfcfb9733707d6a85672e209319571cf3d3c476
 """Defines the HBnB console."""
 import cmd
 import re
@@ -17,10 +13,6 @@ from models.amenity import Amenity
 from models.review import Review
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> fbfcfb9733707d6a85672e209319571cf3d3c476
 def parse(arg):
     curly_braces = re.search(r"\{(.*?)\}", arg)
     brackets = re.search(r"\[(.*?)\]", arg)
@@ -39,10 +31,6 @@ def parse(arg):
         return retl
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> fbfcfb9733707d6a85672e209319571cf3d3c476
 class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter.
     Attributes:
@@ -218,8 +206,4 @@ class HBNBCommand(cmd.Cmd):
 
 
 if __name__ == "__main__":
-<<<<<<< HEAD
-    HBNBCommand().
-=======
     HBNBCommand().cmdloop()
->>>>>>> fbfcfb9733707d6a85672e209319571cf3d3c476
