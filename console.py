@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-
-
-
-
 """Defines the HBnB console."""
 import cmd
 import re
@@ -15,7 +11,6 @@ from models.city import City
 from models.place import Place
 from models.amenity import Amenity
 from models.review import Review
-
 
 
 def parse(arg):
@@ -34,7 +29,6 @@ def parse(arg):
         retl = [i.strip(",") for i in lexer]
         retl.append(curly_braces.group())
         return retl
-
 
 
 class HBNBCommand(cmd.Cmd):
@@ -212,7 +206,4 @@ class HBNBCommand(cmd.Cmd):
 
 
 if __name__ == "__main__":
-
-    HBNBCommand().
-    HBNBCommand().cmdloop()
     HBNBCommand().cmdloop()
